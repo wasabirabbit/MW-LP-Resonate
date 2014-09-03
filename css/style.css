@@ -301,10 +301,11 @@ html, body {height: 100%;}
 .mainbox .sidebar {
 	-webkit-text-size-adjust: none;
 	width:264px;
+	height: 235px;
 	position:relative;
 	padding: 15px 0 220px 30px;
 	float:left;
-	margin:10px 0 10px 0;
+	margin:10px 30px 10px 0;
 	border-left:#b9b9b9 1px solid;
 	text-align:center;
 }
@@ -320,7 +321,7 @@ html, body {height: 100%;}
 }
 .mainbox .sidebar  img{
 	position:absolute;
-	bottom:25px;
+	top:25px;
 	left:0px;
 
 }
@@ -334,6 +335,9 @@ html, body {height: 100%;}
 	height:30px;
 	float:left;
 	margin: 0 0 0 -4px;
+	position: absolute;
+	top: 225px;
+	left: 40px;
 }
 
 .btndownloadtip:hover{
